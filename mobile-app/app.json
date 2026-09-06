@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "MOI_chat",
+    "slug": "moi-chat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0e17"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "gov.moi.chat"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0e17"
+      },
+      "package": "gov.moi.chat"
+    },
+    "extra": {
+      "supabaseUrl": "https://haacofehkiybrujcltur.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhhYWNvZmVoa2l5YnJ1amNsdHVyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY0NjI3MTIsImV4cCI6MjA5MjAzODcxMn0.i2nqqhw7zQOE3xu4ow4CUaKa5VTkgJgjg3_F6afixGM"
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}

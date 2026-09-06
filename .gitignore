@@ -1,0 +1,24 @@
+# Node modules & dependencies
+node_modules/
+
+# Expo & Build artifacts
+.expo/
+dist/
+web-build/
+
+# Android build outputs & Gradle cache
+mobile-app/android/.gradle/
+mobile-app/android/app/build/
+mobile-app/android/build/
+mobile-app/jdk-17/
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+ExpoGo.apk
+moi-chat-main/
+
